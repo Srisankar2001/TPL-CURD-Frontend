@@ -1,0 +1,89 @@
+.register-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 320px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.register-input-div {
+    margin-bottom: 15px;
+}
+
+.register-input {
+    margin-bottom: 20px;
+}
+
+.register-input label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-input input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.register-input span {
+    color: red;
+    font-size: 12px;
+}
+
+.register-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.register-btn input {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.register-btn-submit {
+    background-color: #007bff;
+    color: white;
+}
+
+.register-btn-reset {
+    background-color: #dc3545;
+    color: white;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link a {
+    color: #007bff; 
+    text-decoration: none; 
+    font-size: 14px;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

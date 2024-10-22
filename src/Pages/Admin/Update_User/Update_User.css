@@ -1,0 +1,121 @@
+.update_user_div {
+    max-width: 600px;
+    margin: 50px  auto 0 auto;
+    padding: 20px 20px 40px 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.update_user_div h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.update_user_div form {
+   align-items: center;
+   justify-content: center;
+}
+
+.update_user_input {
+    margin-bottom: 15px;
+}
+
+.update_user_input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.update_user_input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+.update_user_input input:focus {
+    border-color: #007bff;
+}
+
+.update_user_input span {
+    color: red;
+    font-size: 0.875rem;
+    display: block;
+    margin-top: 5px;
+}
+
+.update_user_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update_user_btn_update {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update_user_btn_update:hover {
+    background-color: darkgreen;
+}
+
+.update_user_btn_reset {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.update_user_btn_reset:hover {
+    background-color: darkred;
+}
+
+@media (max-width: 768px) {
+    .update_user_btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .update_user_btn_update,
+    .update_user_btn_reset {
+        width: 100%;
+    }
+}
+.user_dashboard_div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.user_dashboard_div h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .user_dashboard_div h1 {
+        font-size: 1.5rem;
+    }
+}
